@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+#div1{
+    width: 1000px;
+    height: 600px;
+    border: 1px solid black;
+    background: linear-gradient(0deg, rgba(3, 139, 250, 0.904), rgb(160, 212, 255) 60%);
+    text-align: center;
+}
+header{
+    width: 100%;
+    height: 60px;
+    border-bottom: 5px solid white;
+    position: relative;
+    border-bottom-style: dotted ;
+    
+
+}
+h1{
+    font-size: 18px;
+    text-decoration: none;
+
+}
+a{
+    color: black;
+    float: left;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-right: 15px;
+    font-weight: lighter;
+}
+#p1{
+    float: right;
+    font-size: 25px;
+    color: white;
+    margin-top: 20px;
+    margin-right: 20px ;
+   
+    text-shadow: 3px 3px 3px black;
+}
+section{
+    width:49% ;
+    height:450px ;
+    /* border: 1px solid black; */
+    float: left;
+}
+
+h2{
+    margin-top: 30px;
+    margin-bottom: 8px;
+    text-align: left;
+    margin-left: 8px;
+}
+#p2{
+    font-size: 13px;
+    text-align: left;
+    color: white;
+    margin: 8px;
+    /* float: left; */
+}
+#table{
+    /* border: 1px solid black; */
+    float: left;
+    position: relative;
+}
+
+.colum1{
+    font-size: 13px;
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+#select{
+    position: absolute;
+    left: 135px;
+    top: 2px;
+    border-radius: 5px;
+}
+input{
+    width: 350px;
+}
+#submit, #reset{
+    width: 60px;
+    text-align: center;
+    border-radius: 5px;
+    border: dotted
+    
+}
+textarea{
+    margin-left: -101px;
+    border-radius: 5px;
+   
+    
+}
+.colum2{
+    border-radius: 5px;
+    float: right;
+    color: rgb(107, 102, 102);
+  
+}
+
+aside{
+    width: 50%;
+    height:450px ;
+    /* border: 1px solid black; */
+    float: right;
+}
+#imgsky{
+    width: 400px;
+    height: 280px;
+    margin-top: 30px;
+}
+h3{
+    font-size: 30px;
+    color: blue;
+    float: left;
+    margin-left: 90px;
+    margin-top: 25px;
+    text-shadow: 2px 2px 3px blue;
+    
+}
+#paside{
+    float: bottom;
+    margin-top: 30px;
+    color: blue;
+}
+#noidungfooter{
+    margin-top: 20px;
+}
+
+
+footer{
+    clear: both;
+    width: 100%;
+    height: 90px;
+    border-top: 5px solid white;
+    border-top-style: dotted;
+    color: white;
+}
